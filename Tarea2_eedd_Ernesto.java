@@ -8,6 +8,11 @@ public class Tarea2_eedd_Ernesto {
 			m[j] = (int)(Math.random()*10);
 			System.out.print(m[j]);
 			System.out.print(", ");
+		
+		}
+		for (int i = 0; i < m.length; i++) {
+			System.out.print(m[i]);
+			System.out.print(",");
 		}
 		
 	}
