@@ -9,7 +9,7 @@ public class Tarea2_eedd_Ernesto {
 		int y = 0;
 		
 		Scanner s = new Scanner(System.in);
-		System.out.println("Dime el número que quieres comprobar");
+		System.out.println("Dime el número que quieres comprobar.");
 		s = Integer.parseInt(s.nextLine());
 		
 		for (int j = 0; j < m.length; j++) {
@@ -20,6 +20,6 @@ public class Tarea2_eedd_Ernesto {
 				y++;
 			}
 		}
-		System.out.println("El número seleccionado está repetido: " + y + " veces en el array");
+		System.out.println("El número seleccionado está repetido: " + y + " veces en el array.");
 	}
 }
